@@ -1,0 +1,161 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+      
+    }
+    .navbar
+    {
+        
+        display: flex;
+        justify-content: space-around;
+        margin: 0 100px;
+        align-items: center;
+        /* background: red; */
+        cursor: pointer;
+    
+    
+        
+    }
+    .navbar   a
+    {
+        text-decoration: none;
+        color: black;
+    
+    }
+    .navbar  ul
+    {
+        
+        list-style: none;
+        display: flex;
+        margin-left: 60vw;
+    
+    
+    }
+    .navbar  li
+    {
+        padding-left: 10px;
+        
+    }
+    a:hover
+    {
+        
+    color: aqua;
+
+    }
+    /* img
+    {
+        height: 40px;
+        width: 60px;
+    } */
+    .imgnavbar1
+    {
+        height: 100px;
+        width: 200px;
+    
+    }
+    .imgnavbar2
+    {
+        height: 30px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    #text
+    {
+    text-align: center;
+    padding-right: 40px;
+    }
+    /* .imgnavbar2
+    {
+        padding-right: 50px;
+    } */
+    /* box */
+    .box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+    h1
+    {
+        font-size: 50px;
+        color: gray;
+        font-weight: bold;
+    }
+    h3
+    {
+        font-size: 30px;
+        color: rgb(67, 67, 180);
+    }
+    p
+    {
+        text-align: justify;
+        font-size: 20px;
+        color: rgb(202, 185, 89);
+    }
+    #but
+    {
+        border: none;
+        
+        background-color:transparent;
+       transition: all 3s;
+    }
+    
+#but:hover
+{
+height: 80px;
+ width: 60px;
+border-radius: 50px;
+background-color: coral;
+transition-delay: 2s;
+
+}
+.col2
+{
+    
+   background-color: black;
+}
+#car
+{
+transform: translateX(-100px);
+position:absolute ;
+right:-5px ;
+}
+#car:hover
+{
+/* transform: rotate(360deg); */
+transition-duration: 3s;
+transition-delay: 2s;
+background: black;
+}
+#Mutahir{
+transform: skew(280deg);
+transition: all 1s inherit 3s;
+}
+#Mutahir:hover{
+border: 2px gray solid;
+border-radius: 50px;
+background: gray;
+    transform: rotate(360deg);
+   transition-timing-function: ease-in;
+   transition-duration: 3s;
+   transition-delay: 2s;
+    height: 100px;
+    width: 200px;
+    color: blue;
+    text-shadow: 100px rebeccapurple
+    ;
+    }
+    /* Smartphones */
+    @media(min-width: 501px) and (max-width: 768px) {
+        body {
+            background: rgb(197, 191, 191);
+        }
+    
+        #tablet h1 {
+            display: block;
+        }
+    }   

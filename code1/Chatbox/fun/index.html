@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Template 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <style>
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+.bgImg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/header.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-content{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.navLinks ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navLinks ul li{
+    color: white;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+
+.header-content h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 125px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header-content p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-content button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.header-content button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+
+.body-container{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.body-container h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+.body-container p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.cards-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.card-image{
+    background-size: cover;
+    height: 200px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 450px;
+}
+
+.card-content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h3 {
+    font-size: 30px;
+}
+
+.card-content p {
+    font-size: 22px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+}
+
+.footer-img{
+    background-image: url("/assets/footer.jpg");
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.footer-content{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer-content h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.footer-content p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input, textarea{
+    width: 100%;
+    padding: 10px 25px;
+    margin: 5px 0;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    font-size: 16px;
+}</style>
+    <div class="container">
+      <!--Header Section-->
+      <div class="header">
+        <div class="bgImg"></div>
+        <div class="header-content">
+          <div class="navLinks">
+            <ul>
+              <li>Home</li>
+              <li>Explore</li>
+              <li>Journal</li>
+              <li>Search</li>
+            </ul>
+          </div>
+          <h2>
+            What Happens <br />
+            Tomorrow
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing <br />
+            elit. Expedita, quam facere!
+          </p>
+          <button>Watch Video</button>
+        </div>
+      </div>
+      <!--Body Section-->
+      <div class="body-container">
+        <h2>Explore The World</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmodtempor incididunt ut <br />labore et dolore magna aliqua. Ut
+          enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea <br />
+          commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate.
+        </p>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-image">
+              <img src="/assets/img-1.jpg" alt="card 1 image" />
+            </div>
+            <div class="card-content">
+              <h3>Excepteur sint</h3>
+              <p>magna aliqua</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="/assets/img-2.jpg" alt="card 1 image" />
+            </div>
+            <div class="card-content">
+              <h3>Excepteur sint</h3>
+              <p>magna aliqua</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="/assets/img-3.jpg" alt="card 1 image" />
+            </div>
+            <div class="card-content">
+              <h3>Excepteur sint</h3>
+              <p>magna aliqua</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer Section-->
+      <div class="footer">
+        <div class="footer-img"></div>
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Feel free to drop us a line</p>
+          <div class="form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Enter Email" />
+            <textarea rows="6">Write Something</textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

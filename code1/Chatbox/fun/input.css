@@ -1,0 +1,77 @@
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#box1 {
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 400px;
+    transition: all 3s;
+    transition-delay: 3s;
+}
+#box1:hover
+{
+    transform: rotate(360deg);
+    height: 100px;
+    width: 500px;
+    color: wheat;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+#box2 {
+    background-color:grey;
+    height: 200px;
+    width: 400px;
+}
+#box2:hover 
+{
+    
+    transition-duration: 3s;
+    transition-delay: 3s;
+    transform: skew(360deg);
+    background-image: url(../IPHONE/png/pic12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 163, 11);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+
+}
+
+#box3 {
+    background-color:darkmagenta;
+    height: 200px;
+    width: 400px;
+}
+#box3:hover{
+    transition-delay: 5s;
+    transition-duration: 3s;
+    transform: translatey(300px);
+    border-radius: 30px;
+    background-image: url(./bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box4 {
+    background-color: peru;
+    height: 200px;
+    width: 400px;
+}
+
+#box5 {
+    background-color: lime;
+    height: 200px;
+    width: 400px;
+}
+
+#box6 {
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 400px;
+}
